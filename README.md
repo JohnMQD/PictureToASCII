@@ -1,5 +1,5 @@
 # PictureToASCII
-This CLI project is supposed to convert PNG-Files into ASCII representaions using the C language.  
+This CLI project is supposed to convert PNG-Files into ASCII representations using the C language.  
 
 #Goals:
 1. The selected PNG File can be converted into ASCII
@@ -9,4 +9,4 @@ This CLI project is supposed to convert PNG-Files into ASCII representaions usin
 
 #Motivation
 
-In the following video [Putting Video on a Floppy Disk](https://www.youtube.com/watch?v=uGoR3ZYZqjc) The Science Elf created a Python script to convert video into ASCII art. A similar goal should be archived in the project, using pictures and the C language instead.
+In the following video [Putting Video on a Floppy Disk](https://www.youtube.com/watch?v=uGoR3ZYZqjc) The Science Elf created a Python script to convert video into ASCII art. A similar goal should be archived in this project, using pictures and the C language instead.
