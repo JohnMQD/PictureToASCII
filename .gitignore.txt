@@ -1,6 +1,0 @@
-#GitIgnore File to exclude Visual Studio Files
-*.sln
-*.vcxproj
-*.filters
-*.user
-/.vs/
