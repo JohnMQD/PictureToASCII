@@ -1,0 +1,29 @@
+Chunks
+NAME; SIZEINT; IDSIZE; DATASIZE; CRCSIZE;
+IHDR 4b 4b data:13b CRC:4b
+sRGB 1b 4b data:1b CRC:4b
+gAMA 4b 4b data:4b CRC:4b
+pHYs 4b 4b data:9b CRC:4b
+IDAT 4b 4b data:550b CRC:4b
+
+Compression Byte:
+D: 110
+B: 01101110
+   ^^^
+   |||
+first bit	BFINAL
+    ||
+next 2 bits     BTYPE
+
+BTYPE == 01
+00 - no compression
+01 - compressed with fixed Huffman codes
+10 - compressed with dynamic Huffman codes
+11 - reserved (error)
+
+Filter: --
+
+
+IDAT -> Huffman(Deflate) Decoder -> LZSS Decoder -> Reverse Filtering
+https://www.youtube.com/watch?v=oi2lMBBjQ8s
+https://www.ietf.org/rfc/rfc1951.txt
