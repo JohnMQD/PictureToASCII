@@ -8,4 +8,5 @@ This CLI project is supposed to convert PNG-Files into ASCII representaions usin
 1. Binary ASCII pictures can be displayed
 
 #Motivation
-In the following video [Putting Video on a Floppy Disk](https://www.youtube.com/watch?v=uGoR3ZYZqjc) [The Science Elf](https://github.com/TheScienceElf/Video-to-Text) created a Python script to convert video into ASCII art. A similar goal should be archived in the project, using only pictures and the C language instead.
+
+In the following video [Putting Video on a Floppy Disk](https://www.youtube.com/watch?v=uGoR3ZYZqjc) The Science Elf created a Python script to convert video into ASCII art. A similar goal should be archived in the project, using pictures and the C language instead.
